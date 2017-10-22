@@ -1,0 +1,76 @@
+* {
+	box-sizing: border-box;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+/*Aplicando Tipografía a todo el documento*/
+body {
+	font-family: 'Arimo', sans-serif;
+}
+
+nav {
+	padding: 10px;
+}
+
+/*Contenedor*/
+.container {
+	width: 150px;
+	height: 200px;
+	font-family: sans-serif;
+	text-align: center;
+	/*outline: 1px solid red;*/
+	background-color: #FBFBFB;
+	color: SlateGray;
+	cursor: pointer;
+	padding: 20px 5px;
+	float: left;
+	filter: drop-shadow(1px 1px 2px SlateGray);
+}
+
+h1 {
+	font-size: 15px;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+span {
+	font-size: 30px;
+}
+
+.textbold {
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+p {
+	font-size: 10px;
+	margin-top: 5px;
+}
+
+/*Acción sobre el menú*/
+.container:hover {
+	width: 160px;
+  	height: 210px;
+  	background-color: #FFFFFF;
+}
+
+.container:hover .textbold {
+	color: #C1C1C1;
+	font-size: 10px;
+}
+
+.container:hover p {
+	color: LightGray;
+	font-size: 10px;
+}
+
+.container:hover span {
+	font-size: 40px;
+	color: #C1C1C1;
+}
+
+.container:hover h1 {
+	color: #9E9D9D;
+}
